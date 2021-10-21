@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #40514E;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 {
+    margin: 50px auto 0px auto;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    margin-top: 0px
+}
+
+h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+    margin: 20px;
+}
+
+a:hover {
+    color: white;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    border-width: 8px;
+    width: 4%;
+    margin: auto;
+}
+
+p {
+    line-height: 2;
+}
+
+
+/***Classes***/
+
+.top-container {
+    background-color: #eaf6f6;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+    margin: 50px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #eaf6f6;
+}
+
+.contact-me {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.pro {
+    text-decoration: underline crimson;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.piyush-image {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.skills {
+    padding-top: 100px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skill-reading {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.skill-investing {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.myButton {
+    box-shadow: 0px 0px 0px 2px #0ec7b7;
+    background: linear-gradient(to bottom, #11999E 5%, #11999E 100%);
+    background-color: #11999E;
+    border-radius: 150px;
+    border: 1px solid #11999E;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color: #476e9e;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
